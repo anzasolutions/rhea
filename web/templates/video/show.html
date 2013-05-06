@@ -1,0 +1,37 @@
+<div id="message">#{message}</div>
+<section id="main-section">
+    <div id="item-avatar">
+        <a href="#{link}">
+            <img src="#{avatar}">
+        </a>
+    </div>
+    <div id="item-title">
+        <div class="title">
+            #{title}
+        </div>
+        <div class="author">
+            #{msg:media.label.details.added.by}
+            <a href="#{profileLink}"><strong>#{username}</strong></a>
+            #{timeAgo} &middot; #{views} #{msg:common.label.views}
+        </div>
+    </div>
+	<div id="video-frame">
+		<div id="video-movie">
+			#{videoObject}
+		</div>
+	</div>
+	<div id="video-details">
+		<span class="left">
+			<a href="#{like}a" class="like">#{msg:video.rate.like}</a>
+			<a href="#{like}a" class="dislike">#{msg:video.rate.dislike}</a>
+		</span>
+	</div>
+	#{comments}
+</section>
+<section id="side-section">
+	<div id="media-details">
+		<div class="media-label">#{msg:media.label.details.more}
+        <a href="#{profileLink}" class="bold">#{username}</a></div>
+		<div class="videos">#{moreRandom}</div>
+	</div>
+</section>

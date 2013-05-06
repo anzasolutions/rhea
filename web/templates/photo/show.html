@@ -1,0 +1,20 @@
+<div id="message">#{message}</div>
+<div id="photo-title">#{title}</div>
+<div id="photo-frame">
+	<a class="thumbnail" href="#{link}">
+		<img class="photo-show" src="#{photo}">
+	</a>
+</div>
+<div id="media-details">
+	<div class="bold">#{msg:media.label.details.added.by}</div>
+	<div class="value">
+		<a href="#{profileLink}">#{username}</a>
+	</div>
+	<div class="bold">#{msg:media.label.details.added.on}</div>
+	<div class="value">#{date}</div>
+	<div class="bold">#{msg:media.label.details.link}</div>
+	<div class="value">#{link}</div>
+	<div class="bold">#{msg:media.label.details.more}</div>
+	<div class="value">#{moreRandom}</div>
+</div>
+#{comments}

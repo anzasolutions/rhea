@@ -1,0 +1,14 @@
+<div id="message">#{message}</div>
+
+#{for:products}
+<div>
+	#{msg:shop.category.label.name}
+	<a href="#{link}">#{title}</a>
+	<br/>
+	#{msg:shop.category.label.price} #{price}
+</div>
+<div>
+	#{msg:shop.category.label.description} #{description}
+</div>
+<br/>
+#{for}

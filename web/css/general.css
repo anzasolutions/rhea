@@ -1,0 +1,106 @@
+/*
+ * General tag properties
+ */
+
+*
+{
+	margin: 0 auto;
+	padding: 0;
+}
+
+a
+{
+	color: #00759b;
+	text-decoration: none;
+	outline-style: none;
+}
+
+a:hover
+{
+	color: #00759b;
+	text-decoration: underline;
+}
+
+a:active
+{
+	color: #00759b;
+}
+
+a:visited
+{
+	color: #00759b;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+    font-size: 12px;
+	color: #333333;
+	background-color: #FBFBFB;
+}
+
+img
+{
+	border: 0px;
+}
+
+input, button, #input-file
+{
+	border: medium none;
+    border-radius: 4px 4px 4px 4px;
+    color: #777777;
+    font-size: 14px;
+    padding: 6px 8px;
+}
+
+input[type="submit"], button
+{
+	color: #ffffff;
+	background-color: #3E97D1;
+}
+
+input[type="submit"]:hover, button:hover
+{
+	background-color: #25b5e5;
+}
+
+input[type="submit"], input[type="button"], button
+{
+    cursor: pointer;
+}
+
+input[type="text"], input[type="password"], #input-file
+{
+	border: 1px solid #CCCCCC;
+}
+
+#input-file
+{
+    overflow: hidden;
+}
+
+option
+{
+	padding: 0 7px 0 2px;
+}
+
+select
+{
+	border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    color: #777777;
+    font-family: arial;
+    font-size: 14px;
+    padding: 5px 6px;
+    width: 204px;
+}
+
+textarea
+{
+	border: 1px #DDDDDD solid;
+	padding: 6px;
+    font-family: arial;
+    font-size: 12px;
+}

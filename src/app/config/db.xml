@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+	<driver>mysql</driver>
+	<hostname>localhost</hostname>
+	<username></username>
+	<password></password>
+	<database></database>
+</database>

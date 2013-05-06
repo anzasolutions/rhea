@@ -1,0 +1,13 @@
+<form action="#{formAction}" method="post">
+	<div class="form-label">#{msg:stock.remove.category.form.label.category}</div>
+	<div class="form-input">
+		#{selectCategory}
+	</div>
+    <div class="form-field-error">#{categoryError}</div>
+	<div class="form-label">
+	</div>
+	<div class="form-input">
+		<input type="submit" name="process" value="#{msg:stock.remove.category.form.label.remove}" />
+	</div>
+	<div class="clear"></div>
+</form>

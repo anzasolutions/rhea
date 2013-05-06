@@ -1,0 +1,15 @@
+<form action="#{action}" method="post">
+	<div class="form-label">
+		<label>#{msg:user.recover.label.form.email}</label>
+	</div>
+	<div class="form-input">
+		<input name="email" type="text" value="#{email}" autofocus />
+	</div>
+    <div class="form-field-error">#{emailError}</div>
+	<div class="form-label">
+	</div>
+	<div class="form-input">
+		<input type="submit" name="process" value="#{msg:user.recover.button.send}" />
+	</div>
+	<div class="clear"></div>
+</form>

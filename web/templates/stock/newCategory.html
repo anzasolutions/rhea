@@ -1,0 +1,15 @@
+<form action="#{formAction}" method="post">
+	<div class="form-label">
+		<label>#{msg:stock.new.category.form.label.name}</label>
+	</div>
+	<div class="form-input">
+		<input name="name" type="text" value="#{name}" autofocus />
+	</div>
+    <div class="form-field-error">#{nameError}</div>
+	<div class="form-label">
+	</div>
+	<div class="form-input">
+		<input type="submit" name="process" value="#{msg:stock.new.category.form.label.save}" />
+	</div>
+	<div class="clear"></div>
+</form>

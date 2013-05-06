@@ -1,0 +1,29 @@
+<div id="comments">
+	<div id="comment-adder">
+		<form id="comment-form" action="#{formAction}" method="post">
+			<div id="comment-avatar">
+				<a href="#{link}">
+					<img src="#{avatar}">
+				</a>
+			</div>
+			<div id="comment-author">
+				<textarea id="comment-textarea" name="comment">#{content}</textarea>
+			</div>
+			<div id="comment-send">
+				<input id="comment-type" type="hidden" name="type" value="#{type}" />
+				<input id="comment-id" type="hidden" name="id" value="#{id}" />
+				<input id="comment-submit" type="submit" name="process" value="#{msg:comment.button}" />
+				<span id="comment-error"></span>
+			</div>
+		</form>
+	</div>
+    <div id="comments-number">
+        #{commentsNo} comments
+    </div>
+    <div id="comment-list">
+        #{comments}
+    </div>
+	<div id="pageIndex">
+		<div class="short">#{pageIndex}</div>
+	</div>
+</div>

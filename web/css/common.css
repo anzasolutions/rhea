@@ -1,0 +1,114 @@
+.white
+{
+	color: #ffffff;
+}
+
+.grey-light
+{
+	color: #808080;
+}
+
+.right
+{
+	float: right;
+}
+
+.left
+{
+	float: left;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.font11
+{
+	font-size: 11px;
+}
+
+.width-full
+{
+	width: 100%;
+}
+
+/*
+ * Borders
+ */
+
+.border-black
+{
+	border: 1px #000000 solid;
+}
+
+.border-dark-grey
+{
+	border: 1px #02546E solid;
+}
+
+.no-outline
+{
+	outline: none;
+}
+
+/*
+ * Margins
+ */
+
+.noscript
+{
+	width: 100%;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+	background-color: #ae0000;
+	padding: 10px 0;
+}
+
+/*
+ * Labels
+ */
+
+.section-title
+{
+	border-bottom: 1px dotted #D9D9D9;
+    color: #00759B;
+    font-weight: bold;
+	font-size: 14px;
+    margin: 10px;
+    padding: 0 0 8px 5px;
+}
+
+/*
+ * Form
+ */
+
+
+/*
+ * Display
+ */
+
+/* .space
+{
+	height: 10px;
+	width: 100%;
+	clear: both;
+} */
+
+.clear
+{
+	clear: both;
+}
+
+.checkbox
+{
+	border: 0;
+}
+
+.center
+{
+	text-align: center;
+}

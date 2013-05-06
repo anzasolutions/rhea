@@ -1,0 +1,36 @@
+<form action="#{action}" method="post">
+	<div class="form-label">
+		<label>#{msg:stock.add.product.form.label.name}</label>
+	</div>
+	<div class="form-input">
+		<input name="name" type="text" value="#{name}" autofocus />
+	</div>
+    <div class="form-field-error">#{nameError}</div>
+	<div class="form-label">
+		<label>#{msg:stock.add.product.form.label.description}</label>
+	</div>
+	<div class="form-input">
+		<input name="description" type="text" value="#{description}" />
+	</div>
+    <div class="form-field-error">#{descriptionError}</div>
+	<div class="form-label">
+		<label>#{msg:stock.add.product.form.label.price}</label>
+	</div>
+	<div class="form-input">
+		<input name="price" type="text" value="#{price}" />
+	</div>
+    <div class="form-field-error">#{priceError}</div>
+	<div class="form-label">
+		<label>#{msg:stock.add.product.form.label.category}</label>
+	</div>
+	<div class="form-input">
+		#{selectCategory}
+	</div>
+    <div class="form-field-error">#{categoryError}</div>
+	<div class="form-label">
+	</div>
+	<div class="form-input">
+		<input type="submit" name="process" value="#{msg:stock.add.product.form.button.add}" />
+	</div>
+	<div class="clear"></div>
+</form>

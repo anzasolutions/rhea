@@ -1,0 +1,28 @@
+2013-04-07T19:39:50+02:00 [core\system\Router] ERROR exception 'ReflectionException' with message 'Class app\Controller\dupaController does not exist' in D:\xampp\htdocs\rhea\src\core\annotation\annotationclass.php:9
+Stack trace:
+#0 D:\xampp\htdocs\rhea\src\core\annotation\annotationclass.php(9): ReflectionClass->__construct('app\Controller\...')
+#1 D:\xampp\htdocs\rhea\src\core\system\router.php(32): core\annotation\AnnotationClass->__construct('app\Controller\...')
+#2 D:\xampp\htdocs\rhea\src\core\system\dispatcher.php(12): core\system\Router->route()
+#3 D:\xampp\htdocs\rhea\index.php(8): core\system\Dispatcher::dispatch()
+#4 {main}
+2013-04-07T19:41:07+02:00 [core\system\Router] ERROR exception 'ReflectionException' with message 'Class app\Controller\blogController does not exist' in D:\xampp\htdocs\rhea\src\core\annotation\annotationclass.php:9
+Stack trace:
+#0 D:\xampp\htdocs\rhea\src\core\annotation\annotationclass.php(9): ReflectionClass->__construct('app\Controller\...')
+#1 D:\xampp\htdocs\rhea\src\core\system\router.php(32): core\annotation\AnnotationClass->__construct('app\Controller\...')
+#2 D:\xampp\htdocs\rhea\src\core\system\dispatcher.php(12): core\system\Router->route()
+#3 D:\xampp\htdocs\rhea\index.php(8): core\system\Dispatcher::dispatch()
+#4 {main}
+2013-04-07T21:29:03+02:00 [core\system\Router] ERROR exception 'ReflectionException' with message 'Class app\Controller\blogController does not exist' in D:\xampp\htdocs\rhea\src\core\annotation\annotationclass.php:9
+Stack trace:
+#0 D:\xampp\htdocs\rhea\src\core\annotation\annotationclass.php(9): ReflectionClass->__construct('app\Controller\...')
+#1 D:\xampp\htdocs\rhea\src\core\system\router.php(32): core\annotation\AnnotationClass->__construct('app\Controller\...')
+#2 D:\xampp\htdocs\rhea\src\core\system\dispatcher.php(12): core\system\Router->route()
+#3 D:\xampp\htdocs\rhea\index.php(8): core\system\Dispatcher::dispatch()
+#4 {main}
+2013-04-19T23:10:50+02:00 [core\system\Router] ERROR exception 'ReflectionException' with message 'Class app\Controller\blogController does not exist' in D:\xampp\htdocs\rhea\src\core\annotation\annotationclass.php:9
+Stack trace:
+#0 D:\xampp\htdocs\rhea\src\core\annotation\annotationclass.php(9): ReflectionClass->__construct('app\Controller\...')
+#1 D:\xampp\htdocs\rhea\src\core\system\router.php(32): core\annotation\AnnotationClass->__construct('app\Controller\...')
+#2 D:\xampp\htdocs\rhea\src\core\system\dispatcher.php(12): core\system\Router->route()
+#3 D:\xampp\htdocs\rhea\index.php(8): core\system\Dispatcher::dispatch()
+#4 {main}

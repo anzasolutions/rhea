@@ -1,0 +1,15 @@
+<form action="#{action}" method="post">
+	<div class="form-label">
+        <label>#{msg:friends.find.form.label.name}</label>
+	</div>
+	<div class="form-input">
+		<input id="search" name="name" type="text" value="#{name}" autofocus />
+	</div>
+    <div class="form-field-error">#{nameError}</div>
+	<div class="form-label">
+	</div>
+	<div class="form-input">
+		<input type="submit" name="process" value="#{msg:friends.find.form.button.find}" />
+	</div>
+	<div class="clear"></div>
+</form>

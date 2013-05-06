@@ -1,0 +1,30 @@
+<form action="#{action}" method="post">
+	<div class="form-label">
+		<label>#{msg:user.register.label.form.username}</label>
+	</div>
+	<div class="form-input">
+		<input name="username" type="text" value="#{username}" autofocus />
+	</div>
+	<div class="form-field-error">#{usernameError}</div>
+	<div class="form-label">
+		<label>#{msg:user.register.label.form.email}</label>
+	</div>
+	<div class="form-input">
+		<input name="email" type="text" value="#{email}" />
+	</div>
+	<div class="form-field-error">#{emailError}</div>
+	<div class="form-label">
+		<label>#{msg:user.register.label.form.password}</label>
+	</div>
+	<div class="form-input">
+		<input name="password" type="password" value="#{pass}" />
+	</div>
+    <div class="form-field-error">#{passwordError}</div>
+	<div class="form-label">
+	</div>
+	<div class="form-input">
+		<input name="process" type="submit" value="#{msg:user.register.button.register}" />
+	</div>
+	
+	<div class="clear"></div>
+</form>

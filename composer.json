@@ -1,0 +1,15 @@
+{
+    "name": "anzasolutions/rhea",
+    "description": "Rhea MVC Framework",
+    "keywords": [ "mvc", "php", "framework" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrzej Zalewski",
+            "email": "anzasolutions@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [ "src/", "test/", "lib/" ]
+    }
+}

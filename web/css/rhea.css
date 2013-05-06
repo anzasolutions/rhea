@@ -1,0 +1,581 @@
+/*
+ * Main parts
+ */
+
+#main
+{
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+}
+
+#main-section
+{
+    float: left;
+    margin-right: 16px;
+    width: 640px;
+}
+
+#side-section
+{
+    float: right;
+    width: 304px;
+}
+
+/*
+ * Form
+ */
+
+.border-dotted-grey
+{
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+	background-color: #FFFFFF;
+	box-shadow: 0 1px 1px #DDDDDD;
+}
+
+.form
+{
+	/* width: 330px; */
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.form input[type="text"], .form input[type="password"]
+{
+	width: 186px;
+}
+
+.form input[type="submit"]
+{
+	float: right;
+}
+
+.form-label
+{
+	color: #666666;
+    float: left;
+    font-size: 14px;
+    margin: 0 10px 0 0;
+    padding: 6px;
+    text-align: right;
+    width: 358px;
+}
+
+.form-label label
+{
+	vertical-align: middle;
+}
+
+.form-input
+{
+	margin-bottom: 10px;
+	float: left;
+	width: 204px;
+}
+
+.checkbox
+{
+	float: left;
+    margin: 7px 10px 0 0;
+    width: 10px;
+}
+
+.form .remember
+{
+	margin: 6px 16px 0 0;
+	float: left;
+}
+
+.form-field-error
+{
+	color: #FC2B2B;
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 6px;
+}
+
+/*
+ * Form error / success
+ */
+
+.error-label
+{
+    color: #A62A2E;
+}
+
+.error-input
+{
+    
+    background-color: #FFEBE8;
+    color: #A62A2E;
+}
+
+/*
+ * Footer
+ */
+
+#footer-wrapper
+{
+	width: 100%;
+	float: left;
+}
+
+#footer
+{
+	width: 940px;
+	margin: 10px auto 10px auto;
+}
+
+#footer a
+{
+	margin-left: 10px;
+}
+
+/*
+ * Comments
+ */
+
+#comments
+{
+	float: left;
+	margin: 10px 0 0;
+}
+
+#comments .separator
+{
+	border-bottom: 1px #e4e4e4 solid;
+	width: 620px;
+	float: left;
+	margin-left: 10px;
+}
+
+#comment
+{
+	border-bottom: 1px solid #DDDDDD;
+    clear: both;
+    float: left;
+    margin: 6px 0 0;
+    padding: 10px 0;
+    width: 640px;
+}
+
+#comment-avatar
+{
+	float: left;
+	margin-right: 10px;
+}
+
+#comment-avatar img
+{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+}
+
+#comment-author
+{
+	float: left;
+	width: 590px;
+	font-size: 14px;
+}
+
+#comment-author .name
+{
+	line-height: 100%;
+	font-weight: bold;
+}
+
+#comment-author .date
+{
+	font-size: 9px;
+	color: #777777;
+	margin-left: 3px;
+}
+
+#comment-author .comment
+{
+	margin: 3px 0 5px;
+	color: #555555;
+	line-height: 1.4em;
+}
+
+#comment-adder
+{
+	float: left;
+	clear: both;
+	width: 640px;
+	margin-bottom: 10px;
+}
+
+#comment-textarea
+{
+	float: left;
+	width: 576px;
+	color: #333333;
+}
+
+#comment-submit
+{
+	margin-top: 10px;
+	float: right;
+}
+
+#comment-error
+{
+	margin: 12px 12px 0 0;
+	float: right;
+    color: #A62A2E;
+	font-weight: bold;
+}
+
+#comments-number
+{
+	border-bottom: 2px solid #DDDDDD;
+    color: #555555;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 0 4px;
+    width: 100%;
+}
+
+/*
+ * Items
+ */
+
+#item-title
+{
+    float: left;
+    line-height: 120%;
+    margin: 0 0 10px;
+    width: 562px;
+}
+
+#item-title .title
+{
+    color: #444444;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin: 0 0 6px;
+}
+
+#item-title .author
+{
+    color: #999999;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+#item-avatar
+{
+    float: left;
+    margin-right: 10px;
+}
+
+#item-avatar img
+{
+    float: left;
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+}
+
+/*
+ * Videos
+ */
+
+#video
+{
+	float: left;
+	outline: none;
+	width: 640px;
+	height: 350px;
+	border: 0;
+}
+
+#video-frame
+{
+	float: left;
+	margin-bottom: 10px;
+}
+
+#video-details
+{
+    float: left;
+    text-align: right;
+    width: 620px;
+	color: #808080;
+}
+
+#video-details .like
+{
+	background: transparent url("../images/emoticon_smile.png") no-repeat left center;
+	margin: 0 5px;
+	padding-left: 22px;
+	padding-bottom: 1px;
+}
+
+#video-details .dislike
+{
+	background: transparent url("../images/emoticon_unhappy.png") no-repeat left center;
+	margin: 0 5px;
+	padding-left: 22px;
+	padding-bottom: 1px;
+}
+
+/*
+ * Profile
+ */
+
+#profile-photo
+{
+	width: 206px;
+	float: left;
+}
+
+#profile-photo .photo-frame
+{
+	padding: 3px;
+}
+
+#profile-content
+{
+	width: 740px;
+	float: right;
+}
+
+#profile-name
+{
+	font-size: 24px;
+	color: #333333;
+	margin: 10px 0;
+}
+
+#profile-menu a
+{
+	margin-right: 6px;
+	font-size: 13px;
+}
+
+/*
+ * Friends
+ */
+
+#friends .avatar
+{
+	margin: 0 4px 6px 2px;
+	width: 90px;
+	height: 90px;
+	float: left;
+}
+
+/*
+ * Messages
+ */
+
+.error, .success
+{
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+	margin: 0 0 10px 0;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.error
+{
+    background-color: #FFE0E0;
+    color: #A62A2E;
+}
+
+.success
+{
+    border: 0px #4E9A06 solid;
+    background-color: #C7FF8F;
+    color: #4E9A06;
+}
+
+/*
+ * Photo
+ */
+
+#photo-frame
+{
+	width: 620px;
+	float: left;
+    margin: 0 25px 10px 0;
+    text-align: center;
+}
+
+.photo-show
+{
+}
+
+#photo-frame img
+{
+	background-color: #FFFFFF;
+    border: 1px solid #F3F7FB;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+    max-width: 600px;
+    padding: 10px;
+}
+
+/*
+ * Media
+ */
+
+#media-wall img, #media-details img
+{
+	width: 100%;
+	float: left;
+}
+
+#media-wall .thumbnail, #media-details .thumbnail
+{
+	margin: 0 3px 3px;
+	width: 131px;
+	height: 98px;
+	float: left;
+}
+
+#media-details
+{
+	float: left;
+	margin: 0;
+}
+
+#media-details .thumbnail
+{
+	margin: 0 3px 6px;
+    margin: 0 10px 10px 0;
+	position: relative;
+    top: -15px;
+}
+
+#media-details .thumbnail-wrapper
+{
+	display: inline-block;
+	height: 68px;
+	overflow: hidden;
+	float: left;
+}
+
+#media-details .value-recommended
+{
+	margin-bottom: 0px;
+}
+
+#media-details .videos
+{
+	display: inline-block;
+}
+
+#media-details .thumbnail-title
+{
+}
+
+#media-details .media-label
+{
+    border-bottom: 2px solid #DDDDDD;
+    color: #555555;
+    float: left;
+    font-size: 14px;
+    margin-bottom: 14px;
+    padding: 0 0 4px;
+    width: 100%;
+}
+
+#media-details .video-detail
+{
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 10px;
+    line-height: 1.4;
+}
+
+/*
+ * Photo wall
+ */
+
+#photo-wall img
+{
+	vertical-align: middle;
+}
+
+#photo-wall .thumbnail
+{
+	margin: 14px;
+	width: 128px;
+	display: inline-block;
+}
+
+#photo-wall .thumbnail-wrapper
+{
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+/*
+ * Paging
+ */
+
+#pageIndex, #load-more
+{
+    margin: 10px 0;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+#pageIndex .current-page
+{
+	background-color: #00759B;
+    display: inline-block;
+    margin: 2px;
+    padding: 2px 6px;
+	color: #fff;
+}
+
+#pageIndex a
+{
+    display: inline-block;
+    margin: 2px;
+    padding: 2px 6px;
+}
+
+#pageIndex a:hover
+{
+	color: #fff;
+	text-decoration: none;
+	background-color: #00759B;
+}
+
+#pageIndex .inactive
+{
+    padding: 2px 8px;
+	color: #aaa;
+}
+
+#pageIndex .short
+{
+	float: left;
+	clear: both;
+	width: 620px;
+}
+
+/*
+ * Login
+ */
+
+.forgot-password
+{
+	font-size: 11px;
+	margin-top: 2px;
+	text-align: center;
+}

@@ -1,0 +1,16 @@
+<form action="#{action}" method="post" enctype="multipart/form-data" name="image_upload_form" id="image_upload_form">
+	<div class="form-label">
+		<label>#{msg:photo.add.form.label.search}</label>
+	</div>
+	<div class="form-input">
+        <div id="input-file">#{msg:photo.add.form.placeholder.photo}</div>
+		<input name="file" type="file" value="#{file}" />
+	</div>
+    <div class="form-field-error">#{fileError}</div>
+	<div class="form-label">
+	</div>
+	<div class="form-input">
+		<input type="submit" name="process" value="#{msg:link.header.photo.add}" />
+	</div>
+	<div class="clear"></div>
+</form>

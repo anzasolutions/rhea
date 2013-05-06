@@ -1,0 +1,30 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="application-name" content="">
+	<meta name="author" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<title>#{msg:header.title}</title>
+	
+	<link rel="stylesheet" href="#{URL_STATIC}web/css/general.css" />
+	<link rel="stylesheet" href="#{URL_STATIC}web/css/common.css" />
+	<link rel="stylesheet" href="#{URL_STATIC}web/css/header.css" />
+	<link rel="stylesheet" href="#{URL_STATIC}web/css/rhea.css" />
+	<!--[if IE]>
+	<link rel="stylesheet" href="#{URL_STATIC}web/css/rhea_ie.css" />
+	<![endif]-->
+</head>
+<body>
+	<noscript>
+		<div class="noscript">
+			#{msg:header.nojs}
+		</div>
+	</noscript>
+	#{globalMenu}
+	#{contextMenu}
+	<div id="content">
+		<div id="main">

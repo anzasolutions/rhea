@@ -1,0 +1,29 @@
+<form action="#{action}" method="post">
+	<div class="form-label">
+		<label>#{msg:user.login.label.form.email}</label>
+	</div>
+	<div class="form-input">
+		<input name="email" type="text" value="#{email}" autofocus />
+	</div>
+	<div class="form-field-error">#{emailError}</div>
+	<div class="form-label">
+		<label>#{msg:user.login.label.form.password}</label>
+	</div>
+	<div class="form-input">
+		<input name="password" type="password" value="#{pass}" />
+        <div class="forgot-password">
+            <a href="#{forgotUrl}">#{msg:user.login.label.forgot.password}</a>
+        </div>
+	</div>
+	<div class="form-field-error">#{passwordError}</div>
+	<div class="form-label">
+	</div>
+	<div class="form-input">
+		<div class="checkbox">
+			<input type="checkbox" checked="checked" name="remember" />
+		</div>
+		<div class="remember">#{msg:user.login.label.form.remember}</div>
+		<input type="submit" name="process" value="#{msg:user.login.button.login}" />
+	</div>
+	<div class="clear"></div>
+</form>
