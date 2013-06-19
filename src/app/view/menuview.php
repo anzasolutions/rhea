@@ -2,6 +2,10 @@
 
 namespace app\view;
 
+use core\view\dom\Link;
+
+use app\view\model\MenuItem;
+
 use core\annotation\AnnotationClass;
 use core\annotation\Annotation;
 use core\constant\FileSuffix;
@@ -61,20 +65,34 @@ abstract class MenuView extends View
     private function createGlobalMenu()
     {
         $template = new Template('menu-global', 'common');
-        $links = array('friends', 'video', 'photo', 'shop');
-        foreach ($links as $link)
+        $links = array('friends' => 'link.header.friends.link',
+                       'video' => 'link.header.video',
+                       'photo' => 'link.header.photo',
+                       'shop' => 'link.header.shop');
+        
+        $mainLinks = array();
+        foreach ($links as $link => $name)
         {
-            $template->$link = $this->url->build($link);
+            $link = $this->url->build($link);
+            $name = $this->bundle->getText($name);
+            $one['link'] = new Link($link, $name);
+            $mainLinks[] = $one;
         }
+        
         $user = SessionUser::getInstance()->getUser();
         if ($user->getRole()->getId() == 1)
         {
-            $template->stock = $this->url->build('stock');
+            $link = $this->url->build('stock');
+            $name = $this->bundle->getText('header.menu.link.stock');
+            $one['link'] = new Link($link, $name);
+            $mainLinks[] = $one;
         }
+        
         $template->userSection = $this->getWelcome();
+        $template->mainLinks = $mainLinks;
         return $template;
     }
-    
+
     protected function createContextMenu()
     {
         $class = new AnnotationClass($this);

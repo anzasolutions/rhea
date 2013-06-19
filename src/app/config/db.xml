@@ -2,7 +2,7 @@
 <database>
 	<driver>mysql</driver>
 	<hostname>localhost</hostname>
-	<username></username>
+	<username>root</username>
 	<password></password>
-	<database></database>
+	<database>simland</database>
 </database>
