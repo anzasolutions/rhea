@@ -1,40 +1,10 @@
-<!-- <div id="header-links">
-    <div id="header-wrapper" class="white">
-        <ul class="left">
-            <li><a href="#{URL_APP}"><strong>#{msg:app.name}</strong></a></li>
-            <li><a href="#{friends}">#{msg:link.header.friends.link}</a></li>
-            <li><a href="#{video}">#{msg:link.header.video}</a></li>
-            <li><a href="#{photo}">#{msg:link.header.photo}</a></li>
-            <li><a href="#{shop}">#{msg:link.header.shop}</a></li>
-            <li><a href="#{stock}">#{msg:header.menu.link.stock}</a>
-            </li>
-        </ul>
-        <ul class="right">#{userSection}</ul>
-    </div>
-</div> -->
-
-
-        <!-- <ul class="nav nav-tabs"> -->
-            <!-- <li class="active"><a href="#{URL_APP}"><strong>#{msg:app.name}</strong></a></li>
-            <li><a href="#{friends}">#{msg:link.header.friends.link}</a></li>
-            <li><a href="#{video}">#{msg:link.header.video}</a></li>
-            <li><a href="#{photo}">#{msg:link.header.photo}</a></li>
-            <li><a href="#{shop}">#{msg:link.header.shop}</a></li>
-            <li><a href="#{stock}" style="display: #{stockDisplay};">#{msg:header.menu.link.stock}</a></li> -->
-          <!--   <div class="masthead">
-        <ul class="nav nav-pills pull-left">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div> -->
-            <ul class="nav nav-pills pull-left">
-                #{for:mainLinks}
-                <li>
-                    #{link}
-                </li>
-                #{for}
-            </ul>
-            <ul class="nav nav-pills pull-right">
-               #{userSection}
-            </ul>
+<ul class="nav nav-pills pull-right">
+   #{userSection}
+</ul>
+<ul class="nav nav-pills">
+    #{for:mainLinks}
+    <li>
+        #{link}
+    </li>
+    #{for}
+</ul>
