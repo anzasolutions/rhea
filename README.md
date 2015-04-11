@@ -7,6 +7,7 @@ Yet another PHP MVC framework.
 
 When running tests in Eclipse (Indigo 3.7.2) with MakeGood (2.3.0) the following must be configured:
 
+- install log4php according to: http://logging.apache.org/log4php/install.html
 - add PEAR to PHP Include Path
 - go to Project > Properties > MakeGood > General:
   - select "PHPUnit" radio button
