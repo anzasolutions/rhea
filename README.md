@@ -1,7 +1,7 @@
 rhea
 ====
 
-Yet another PHP MVC framework.
+Yet another PHP MVC framework. Created in 2012.
 
 <img alt="Build Status" src="https://travis-ci.org/anzasolutions/rhea.png">
 
